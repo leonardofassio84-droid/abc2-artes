@@ -1,0 +1,145 @@
+[
+ {
+  "arquivo": "ikoliks_aj-background-music-320427.mp3",
+  "titulo": "Background Music",
+  "artista": "ikoliks_aj",
+  "genero": "outros",
+  "duracao": 143.4,
+  "trechos_inicio_s": [
+   32,
+   44,
+   56,
+   68,
+   80,
+   116
+  ],
+  "fonte": "Pixabay Music (licença Pixabay, uso livre)"
+ },
+ {
+  "arquivo": "nastelbom-rock-music-439492.mp3",
+  "titulo": "Rock Music",
+  "artista": "nastelbom",
+  "genero": "rock",
+  "duracao": 130.7,
+  "trechos_inicio_s": [
+   16,
+   29,
+   82,
+   106
+  ],
+  "fonte": "Pixabay Music (licença Pixabay, uso livre)"
+ },
+ {
+  "arquivo": "polytunes-heroes-never-die-617232.mp3",
+  "titulo": "Heroes Never Die",
+  "artista": "polytunes",
+  "genero": "rock",
+  "duracao": 152.9,
+  "trechos_inicio_s": [
+   62,
+   80,
+   92,
+   107
+  ],
+  "fonte": "Pixabay Music (licença Pixabay, uso livre)"
+ },
+ {
+  "arquivo": "vaitsez-vlog-vlog-beat-620108.mp3",
+  "titulo": "Vlog Beat",
+  "artista": "vaitsez",
+  "genero": "outros",
+  "duracao": 133.4,
+  "trechos_inicio_s": [
+   6,
+   19,
+   46,
+   72,
+   112
+  ],
+  "fonte": "Pixabay Music (licença Pixabay, uso livre)"
+ },
+ {
+  "arquivo": "nastelbom-cinematic-cinematic-music-623748.mp3",
+  "titulo": "Cinematic Music",
+  "artista": "nastelbom",
+  "genero": "cinematic",
+  "duracao": 118.6,
+  "trechos_inicio_s": [
+   33,
+   55,
+   94
+  ],
+  "fonte": "Pixabay Music (licença Pixabay, uso livre)"
+ },
+ {
+  "arquivo": "eugenemyers-the-borderland-620019.mp3",
+  "titulo": "The Borderland",
+  "artista": "eugenemyers",
+  "genero": "rock",
+  "duracao": 108.4,
+  "trechos_inicio_s": [
+   21,
+   35,
+   48,
+   78,
+   90
+  ],
+  "fonte": "Pixabay Music (licença Pixabay, uso livre)"
+ },
+ {
+  "arquivo": "audioknap-the-hip-hop-618430.mp3",
+  "titulo": "The Hip Hop",
+  "artista": "audioknap",
+  "genero": "outros",
+  "duracao": 116.3,
+  "trechos_inicio_s": [
+   4,
+   25,
+   64,
+   85
+  ],
+  "fonte": "Pixabay Music (licença Pixabay, uso livre)"
+ },
+ {
+  "arquivo": "mickeyscat-moment-of-peace-mickeyscat-554494.mp3",
+  "titulo": "Moment of Peace",
+  "artista": "mickeyscat",
+  "genero": "calma",
+  "duracao": 152.2,
+  "trechos_inicio_s": [
+   89,
+   101,
+   122,
+   134
+  ],
+  "fonte": "Pixabay Music (licença Pixabay, uso livre)"
+ },
+ {
+  "arquivo": "echobrainz-upbeat-indie-rock-624221.mp3",
+  "titulo": "Upbeat Indie Rock",
+  "artista": "echobrainz",
+  "genero": "rock",
+  "duracao": 132.9,
+  "trechos_inicio_s": [
+   22,
+   35,
+   54,
+   67
+  ],
+  "fonte": "Pixabay Music (licença Pixabay, uso livre)"
+ },
+ {
+  "arquivo": "lnplusmusic-sport-sports-rock-music-597971.mp3",
+  "titulo": "Sports Rock Music",
+  "artista": "lnplusmusic",
+  "genero": "rock",
+  "duracao": 117.0,
+  "trechos_inicio_s": [
+   19,
+   41,
+   72,
+   92
+  ],
+  "fonte": "Pixabay Music (licença Pixabay, uso livre)"
+ }
+]
