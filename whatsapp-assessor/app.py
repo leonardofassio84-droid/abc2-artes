@@ -22,7 +22,25 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(mess
 log = logging.getLogger("assessor")
 
 db.init(os.getenv("DB_PATH", "assessor.db"))
-AUTORIZADOS = {n.strip() for n in os.getenv("ALLOWED_NUMBERS", "").split(",") if n.strip()}
+def _variantes(numero: str) -> set[str]:
+    """Normaliza o número e cobre o 9º dígito de celulares brasileiros.
+
+    O WhatsApp às vezes identifica celulares do Brasil sem o 9 (ex.: 551189056920
+    em vez de 5511989056920), então aceitamos as duas formas.
+    """
+    d = "".join(ch for ch in numero if ch.isdigit()).lstrip("0")
+    if len(d) in (10, 11):  # digitado sem o 55
+        d = "55" + d
+    formas = {d}
+    if d.startswith("55") and len(d) == 13 and d[4] == "9":
+        formas.add(d[:4] + d[5:])
+    elif d.startswith("55") and len(d) == 12 and d[4] in "6789":
+        formas.add(d[:4] + "9" + d[4:])
+    return formas
+
+
+AUTORIZADOS = {v for n in os.getenv("ALLOWED_NUMBERS", "").split(",") if n.strip()
+               for v in _variantes(n)}
 
 app = FastAPI(title="Assessor WhatsApp + Claude")
 
